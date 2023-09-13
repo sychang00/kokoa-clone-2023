@@ -5,7 +5,11 @@
 
 @import "screens/welcome.css";
 @import "components/nav_bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
 
 body{
-    font-family:font-family: 'Open Sans', sans-serif;
+    font-family:font-family 'Open Sans', sans-serif;
+    height:100vh;
+    color:#2e363e;
 }

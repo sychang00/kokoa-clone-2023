@@ -1,8 +1,32 @@
 .nav{
     background-color: aliceblue;
-    padding: 20px 40px;
+    padding: 20px 50px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
 }
+
 .nav_ul{
     display: flex;
     justify-content: space-between;
+}
+.nav_ul{
+    border-top: 2px solid rgba(63, 59, 59, 0.3);
+}
+.nav_link{
+    position:relative;
+    color:#2e363e;
+}
+.nav_notification{
+    background-color: tomato;
+    width:30px;
+    height:30px;
+    color:white;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:10px;
 }
